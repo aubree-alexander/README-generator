@@ -8,7 +8,7 @@ const questions = [
 {
     type: 'input',
     name: 'title',
-    message: 'What ist he title of your project?'
+    message: 'What is the title of your project?'
 },
 {
     type: 'input',
@@ -21,11 +21,22 @@ const questions = [
     message: 'Please provide installation instructions for your project.'
 },
 {
+    type: 'input',
+    name: 'usage',
+    message: 'Please provide instructions and examples for use.'
+},
+{
     type: 'list',
     name: 'license',
     message: 'Please select a license.',
-    choices: ['MIT', 'Apache', "GPL", "BSD", 'None']
+    choices: ['Apache', 'Boost', 'BSD', 'Creative Commons', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Perl', 'SIL', 'Unlicense', 'WTFPL', 'Zlib', 'None']
+},
+{
+    type: 'input',
+    name: 'contributing',
+    message: 'Please describe how others can contribute to this project.'
 }
+//  Contributing, Tests, and Questions
 
 ];
 
