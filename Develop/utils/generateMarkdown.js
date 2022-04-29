@@ -1,4 +1,5 @@
 
+
 // Create license badge or empty string based on user input
 function renderLicenseBadge(license) {
   if(license !== 'None') {
@@ -11,9 +12,9 @@ function renderLicenseBadge(license) {
 // Create license link if user selects one during prompt
 function renderLicenseLink(license) {
   if (license === 'APACHE') {
-    return '(https://opensource.org/licenses/MIT)';
-  } else if (license === 'MIT') {
     return '(https://opensource.org/licenses/Apache-2.0)';
+  } else if (license === 'MIT') {
+    return '(https://opensource.org/licenses/MIT)';
   } else if (license === 'GPL') {
     return '(https://www.gnu.org/licenses/gpl-3.0)';
   } else if (license === 'BSD') {
@@ -61,7 +62,6 @@ function generateMarkdown(data) {
   ## Tests
   The command that should be used to run tests is:
   ${data.test}
-  ## Badges
   ## Contributing
   ${data.contributing}
   ## Questions

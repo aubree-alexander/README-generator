@@ -1,6 +1,6 @@
 # sample project 1
   
-  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License](https://img.shields.io/badge/License-GPL-yellow.svg)
   
   ## Description
   description goes here
@@ -13,18 +13,17 @@
   ### [Contributing](#Contributing)
   ### [Questions](#Questions)
   ## Installation
-  installation instructions go here
+  intallation instructions go here
   ## Usage
-  instructions and examples for use go here
+  examples for use go here
   
   ## License
   See information regarding the license here:
-  [License Information]((https://opensource.org/licenses/Apache-2.0))
+  [License Information]((https://www.gnu.org/licenses/gpl-3.0))
   
   ## Tests
   The command that should be used to run tests is:
   npm test
-  ## Badges
   ## Contributing
   contribution instructions go here
   ## Questions
