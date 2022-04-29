@@ -29,6 +29,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Walkthrough
 
+https://user-images.githubusercontent.com/99295420/166001610-c0b7fdf4-e605-4a3a-9bd2-fb866673dde6.mp4
+
+
 
 ## Contribution
 Aubree Alexander
